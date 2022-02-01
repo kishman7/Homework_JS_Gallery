@@ -1,0 +1,71 @@
+
+body {
+    background-color: black;
+}
+ul {
+    list-style: none;
+    width: 600px;
+    margin: 0 auto; /*рзміщяємо список по центу сторінки*/
+    border: 1px solid white;
+
+}
+ul li {
+    display: inline-block; /*горизонтальне розміщення списку*/
+}
+img {
+    width: 100px; /*регуюємо ширину картинки*/
+    margin: 10% 18px;
+}
+.mainImg {
+    width: 640px;
+    height: 350px;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+.mainImg img {
+    width: 640px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 0;
+}
+
+#btnLeft {
+    width: 50px;
+    height: 35px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    background-image: url(/img/left.png);
+    background-size: 50px;
+}
+#btnRight {
+    width: 50px;
+    height: 35px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 40%;
+    left: 68%;
+    background-image: url(/img/right.png);
+    background-size: 50px;
+}
+.test {
+    /* background-color: aqua; */
+    position: relative;
+    /* margin: 0;
+    padding: 0; */
+}
+/* .conteiner {
+    width: 80%;
+    margin: 30px auto;
+    overflow: hidden;
+} */
+
+/* li {
+    width: 21%;
+    margin: 2% 2% 40px 2%;
+} */
+
+
+
